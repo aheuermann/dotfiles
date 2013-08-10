@@ -1,2 +1,11 @@
 [
+	{ "keys": ["super+shift+r"], "command": "show_overlay", "args": {"overlay": "goto", "show_files": true} },
+	{ "keys": ["super+d"], "command": "run_macro_file", "args": {"file": "Packages/Default/Delete Line.sublime-macro"} },
+	{ "keys": ["enter"], "command": "commit_completion", "context":
+		[
+			{ "key": "auto_complete_visible" }
+		]
+	},
+	{ "keys": ["option+shift+r"], "command": "reindent" , "args": {"single_line": false}},
+  { "keys": ["super+alt+n"], "command": "new_from_selection" }
 ]

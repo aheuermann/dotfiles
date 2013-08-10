@@ -1,0 +1,7 @@
+{
+	"sublimelinter_executable_map":
+	{
+	    "coffee": "/usr/local/share/npm/bin/coffee",
+	    "javascript": "jslint"
+	}
+}
